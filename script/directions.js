@@ -24,7 +24,7 @@ Quiz.Directions.prototype = {
 		var button = this.add.text(this.cameras.main.centerX, this.cameras.main.centerY, 'Easy\n0.75x Points')
 			.setOrigin(0.3)
 			.setPadding(10)
-			.setStyle({backgroundColor: '#26ee2b', color: '#000', borderRadius: '25px'})
+			.setStyle({backgroundColor: '#26eeab', color: '#000', borderRadius: '25px'})
 			.setInteractive({ useHandCursor: true })
 			.on('pointerdown', function() {
 				that.difficulty = 'easy';
@@ -56,7 +56,7 @@ Quiz.Directions.prototype = {
 		var button = this.add.text(this.cameras.main.centerX, this.cameras.main.centerY, 'Hard\n1.25x Points')
 			.setOrigin(0.7)
 			.setPadding(10)
-			.setStyle({backgroundColor: '#26ee2b', color: '#000', borderRadius: '25px'})
+			.setStyle({backgroundColor: '#442277', color: '#fff', borderRadius: '25px'})
 			.setInteractive({ useHandCursor: true })
 			.on('pointerdown', function() {
 				that.difficulty = 'hard';
